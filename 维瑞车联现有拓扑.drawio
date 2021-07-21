@@ -1,1 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T05:01:50.881Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.8.6" etag="ECD7pWD21sZv8xJasP-i" type="github"><diagram id="bCBE6LveTTj0kq9oK91h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:42:07.533Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="GgC40cqS0WnO0o7tW2vW" version="14.9.0" type="github">
+  <diagram id="bCBE6LveTTj0kq9oK91h" name="第 1 页">
+    <mxGraphModel dx="2324" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-35" value="AWS" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="160" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-29" value="主备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="350" width="135" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-17" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="540" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-1" value="北京VLAN2600" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-2" value="上海VLAN2500" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-4" value="北京鹏博士" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-6" value="上海鹏博士B" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-7" value="上海VLAN2501" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-8" value="上海鹏博士A" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-13" value="宁夏沙坡头VLAN1782" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-14" value="宁夏沙坡头VLAN1781" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="747" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-15" value="宁夏中卫VLAN702" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="760" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-16" value="宁夏中卫VLANVLAN701" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-18" value="" style="endArrow=none;html=1;exitX=1.029;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-4" target="s6bDDC16BMTV1rpkjzS2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-19" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-8" target="s6bDDC16BMTV1rpkjzS2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="550" as="sourcePoint" />
+            <mxPoint x="290" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-20" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-6" target="s6bDDC16BMTV1rpkjzS2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="740" as="sourcePoint" />
+            <mxPoint x="330" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-30" value="" style="endArrow=none;html=1;exitX=0.988;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.245;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-15" target="s6bDDC16BMTV1rpkjzS2-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="740" as="sourcePoint" />
+            <mxPoint x="953.4000000000001" y="545.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-31" value="" style="endArrow=none;html=1;exitX=0.87;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-32" value="" style="endArrow=none;html=1;exitX=0.872;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="210" as="sourcePoint" />
+            <mxPoint x="920" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-33" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6bDDC16BMTV1rpkjzS2-14" target="s6bDDC16BMTV1rpkjzS2-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="410" as="sourcePoint" />
+            <mxPoint x="939.0999999999999" y="274.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-37" value="vpc1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960.25" y="230" width="89.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-38" value="vpc2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960.25" y="503" width="79.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-39" value="&lt;br&gt;export&lt;br&gt;deny 带有团体属性123123" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="155" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-40" value="import&lt;br&gt;打bgp自定义团体属性123124" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-41" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;import&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;打bgp自定义团体属性123123&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-42" value="&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;export&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;deny 带有团体属性123124&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; font-family: helvetica; text-align: center; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;import&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; font-family: helvetica; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; font-family: helvetica; text-align: center; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;打bgp自定义团体属性123123&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="580" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-44" value="&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;export&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;deny 带有团体属性123124&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-47" value="&lt;br&gt;export&lt;br&gt;deny 带有团体属性123123" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-48" value="import&lt;br&gt;打bgp自定义团体属性123124" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-51" value="&lt;br&gt;import&lt;br&gt;打bgp自定义团体属性123123" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="140" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-52" value="&lt;br&gt;import&lt;br&gt;打bgp自定义团体属性123124" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="320" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-53" value="&lt;br&gt;import&lt;br&gt;打bgp自定义团体属性123124" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6bDDC16BMTV1rpkjzS2-56" value="&lt;font style=&quot;font-size: 16px&quot;&gt;实现：&lt;br&gt;北京只可以通信vpc2&lt;br&gt;上海只可以通信vpc1&lt;br&gt;北京-上海可以互相通信&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="220" width="190" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
