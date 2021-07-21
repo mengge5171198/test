@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T06:43:03.456Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.9.0" etag="MQOkw9UzEF4SIXDNTqJ4" type="github"><diagram id="QxYTe1pQx8HoR4hF3iwc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-21T07:20:18.744Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="mH2kINmV2YA5WMDETSED" version="14.9.0" type="github">
+  <diagram id="QxYTe1pQx8HoR4hF3iwc" name="第 1 页">
+    <mxGraphModel dx="1927" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-1" value="AWS" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="160" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-2" value="主备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="350" width="135" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-3" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="540" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-4" value="北京VLAN2600" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-5" value="上海VLAN2500" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-6" value="北京鹏博士" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-7" value="上海鹏博士B" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-8" value="上海VLAN2501" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-9" value="上海鹏博士A" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.client_based_security;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-11" value="宁夏沙坡头VLAN1781" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="760" y="487" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-12" value="宁夏中卫VLAN702" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-14" value="" style="endArrow=none;html=1;exitX=1.029;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKbTgDSi_KbyWSg5hXiN-6" target="TKbTgDSi_KbyWSg5hXiN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-15" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKbTgDSi_KbyWSg5hXiN-9" target="TKbTgDSi_KbyWSg5hXiN-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="550" as="sourcePoint" />
+            <mxPoint x="290" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-16" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKbTgDSi_KbyWSg5hXiN-7" target="TKbTgDSi_KbyWSg5hXiN-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="740" as="sourcePoint" />
+            <mxPoint x="330" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-17" value="" style="endArrow=none;html=1;exitX=0.988;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.245;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKbTgDSi_KbyWSg5hXiN-12" target="TKbTgDSi_KbyWSg5hXiN-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="740" as="sourcePoint" />
+            <mxPoint x="953.4000000000001" y="545.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-20" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKbTgDSi_KbyWSg5hXiN-11" target="TKbTgDSi_KbyWSg5hXiN-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="410" as="sourcePoint" />
+            <mxPoint x="939.0999999999999" y="274.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-21" value="vpc1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960.25" y="230" width="89.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-22" value="vpc2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960.25" y="503" width="79.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="TKbTgDSi_KbyWSg5hXiN-35" value="&lt;font style=&quot;font-size: 16px&quot;&gt;通过AWS实现：&lt;br&gt;vpc2只允许北京通信&lt;br&gt;vpc1只允许上海通信&lt;br&gt;北京-上海可以互相通信&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="220" width="190" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
